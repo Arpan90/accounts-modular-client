@@ -1,0 +1,15 @@
+.button{
+    width: 4.5em;
+    height: 2.5em;
+    padding:0;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.buttonCancel{
+    margin-left: 2em;
+}
+
+.popover{
+    z-index: 50;
+}

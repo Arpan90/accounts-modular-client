@@ -1,0 +1,20 @@
+.alertBox{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 99vw;
+    text-align: center;
+    pointer-events: none;
+    opacity: 1;
+    animation: fadeOut 3s 2s forwards;
+}
+
+@keyframes fadeOut {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}

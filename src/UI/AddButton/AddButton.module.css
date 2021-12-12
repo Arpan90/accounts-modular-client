@@ -1,0 +1,28 @@
+.buttonGrp{
+    margin-top: 1.5em;
+}
+
+.buttonCancel{
+    margin-left: 2em;
+}
+
+.popover{
+    z-index: 50;
+    width: 40vw;
+}
+
+.validationFail{
+    position: absolute;
+    color: #ff0000;
+    font-size: 10px;
+    height: fit-content;
+    width: fit-content;
+    right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.clickable{
+    cursor: pointer;
+}
+

@@ -1,0 +1,37 @@
+.overlay{
+    position: absolute;
+    z-index: 999;
+    top: -20vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.spinner{
+    position: absolute;
+    top: 40vh;
+    left: 15vw;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    background-color: #000000;
+    opacity: 1;
+    overflow: hidden;
+    animation: grow 0.6s infinite forwards;
+}
+
+@keyframes grow {
+    0%{
+        opacity: 1;
+        transform: scale(1);
+    }
+    100%{
+        opacity: 0;
+        transform: scale(2);
+    }
+}
+
+.borderStyle .modal-content{
+    border: 0;
+}
